@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueObject\CEPTests.cs" />
     <Compile Include="ValueObject\CPFTests.cs" />
     <Compile Include="ValueObject\EmailTests.cs" />
+    <Compile Include="ValueObject\EnderecoTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ecommerce.Domain\Ecommerce.Domain.csproj">
